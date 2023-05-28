@@ -1,0 +1,111 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+body {
+  background:#a4c0ed;
+  margin:auto;
+  width:80%;
+  color:#126bfc;
+}
+
+
+
+div.banner{
+  background:white;
+  overflow:hidden;
+  max-width:100%;
+  margin:10x 10x 10px 10px;
+Margin creates space around things
+  text-align:center;
+}
+
+div.banner h1 {
+color:Black;
+margin-top: 50px;
+}
+
+div.nav{
+  background:black;
+  overflow:hidden;
+  max-width:100%;
+  margin:0px 10px 10px 0px;
+  text-align:center;
+}
+
+div.nav a{
+  color:white;
+  float:left;
+  padding:10px 206.508px;
+  text-align:center
+  font-family: Calibri;
+}
+
+div.nav a:hover{
+  background:blue;
+  text-align:center;
+  animation: fadeIn 0.40s;
+}
+
+div.nav {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  z-index: 9999;
+  text-align:center;
+}
+
+div.content{
+  max-width:100%;
+  background:white;
+  padding: 10px;
+  margin:10px 0px 10px 0px;
+  overflow:auto;
+  font-family: Calibri;
+}
+
+div.content img{
+  float:right;
+  vertical-align:top;
+  width:300px;
+  height:auto;
+  border-radius: 12.5px;
+  }
+
+div.imageNav {
+  max-width:100%;
+  background:white;
+  padding: 10px;
+  margin:10px 0px 10px 0px;
+  overflow:auto;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+div.imageNav img{
+  float:left;
+  padding:5px;
+  width:400px;
+  height:auto;
+  border-radius: 12.5px;
+}
+
+div.content h1 {
+color:black;
+}
+
+div.content h2 {
+color:black;
+}
+
+div.content p {
+color:black;
+}
+
+
+
+
+
